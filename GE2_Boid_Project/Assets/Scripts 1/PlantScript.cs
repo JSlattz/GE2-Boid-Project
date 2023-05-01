@@ -13,7 +13,10 @@ public class PlantScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        plantHeightMin = Random.Range(5, 10);
+        plantHeightMax = Random.Range(plantHeightMin, 30);
         rndPlantHeight = Random.Range(plantHeightMin, plantHeightMax);
+        firstPlantStem = GameObject.Find("Base Plant");
         plantHeight = rndPlantHeight;
         i = 0;
         j = plantStems.Count;
@@ -21,6 +24,10 @@ public class PlantScript : MonoBehaviour
         {
             Destroy(plantStems[j]);
             j--;
+        }
+        else
+        {
+            return;
         }
         //seedPrefab = plantSpawnerScript.seedPrefab;
         //StartCoroutine("PlantGrowthTimer");
@@ -55,6 +62,10 @@ public class PlantScript : MonoBehaviour
                 meshRenderer.material.color = new Color(0f, 1f, 0.1600f);
                 firstPlantStem.transform.SetParent(transform);
                 firstPlantStem.transform.localPosition = new Vector3(0f, i * 1f, 0f);
+                firstPlantStem.AddComponent<Rigidbody>();
+                firstPlantStem.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
+                firstPlantStem.tag = "Food";
+                firstPlantStem.layer = 3;
                 plantStems.Add(firstPlantStem);
                 j = plantStems.Count;
                 StartCoroutine("PlantGrowthTimer");
@@ -71,7 +82,7 @@ public class PlantScript : MonoBehaviour
                 firstPlantStem.AddComponent<NoiseWander>();
                 firstPlantStem.AddComponent<SeedScript>(); firstPlantStem.GetComponent<SeedScript>().enabled = true;
                 firstPlantStem.AddComponent<Rigidbody>();
-                firstPlantStem.GetComponent<Rigidbody>().mass = 0f; firstPlantStem.GetComponent<Rigidbody>().useGravity = false;
+                firstPlantStem.GetComponent<Rigidbody>().mass = 0f; firstPlantStem.GetComponent<Rigidbody>().useGravity = false; firstPlantStem.GetComponent<Rigidbody>().drag = 5f;
                 firstPlantStem.transform.position = new Vector3(0f, i + 1f, 0f);
                 meshRenderer.material.color = new Color(1f, 0f, 0.1600f);
                 firstPlantStem.transform.SetParent(transform);

@@ -26,7 +26,7 @@ public class NematodeSchool : MonoBehaviour
 
         int rndPrefab = Random.Range(1, count);
         InsFish[rndPrefab].tag = "Leader";
-        InsFish[rndPrefab].GetComponentInChildren<Boids>().seekEnabled = false;
+        InsFish[rndPrefab].GetComponentInChildren<Seek>().enabled = false;
     }
 
     // Update is called once per frame

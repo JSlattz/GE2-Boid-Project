@@ -27,11 +27,12 @@ public class ObstacleAvoidance : SteeringBehaviour
     public ForceType forceType = ForceType.normal;
 
     public LayerMask mask = -1;
-
+    public LayerMask Food;
     public void OnEnable()
     {
         StartCoroutine(UpdateFrontFeelers());
         StartCoroutine(UpdateSideFeelers());
+        mask = ~Food;
     }
 
     public void OnDrawGizmos()

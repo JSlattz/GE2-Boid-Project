@@ -10,6 +10,7 @@ public class Boid : MonoBehaviour
     public Vector3 acceleration = Vector3.zero;
     public Vector3 velocity = Vector3.zero;
     public float mass = 1;
+    public int hunger = 49;
 
     [Range(0.0f, 10.0f)]
     public float damping = 0.01f;
@@ -31,7 +32,7 @@ public class Boid : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
+        StartCoroutine("hungerCountdown");
         SteeringBehaviour[] behaviours = GetComponents<SteeringBehaviour>();
 
         foreach (SteeringBehaviour b in behaviours)
@@ -97,6 +98,20 @@ public class Boid : MonoBehaviour
         return force;
     }
 
+    IEnumerator hungerCountdown()
+    {
+        yield return new WaitForSeconds(5f);
+        hunger--;
+        if(hunger < 50 && this.gameObject.tag != "Food")
+        {
+            this.GetComponent<Seek>().enabled = true;
+        }
+        else if(hunger >= 50 && this.gameObject.tag != "Food")
+        {
+            this.GetComponent<Seek>().enabled = false;
+        }
+        StartCoroutine("hungerCountdown");
+    }
 
     // Update is called once per frame
     void FixedUpdate()
@@ -115,5 +130,20 @@ public class Boid : MonoBehaviour
             transform.position += velocity * Time.deltaTime;
             velocity *= (1.0f - (damping * Time.deltaTime));
         }
+
+        if(hunger > 100)
+        {
+            hunger = 100;
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Food" && hunger < 100)
+        {
+            hunger += 25;
+            Destroy(collision.gameObject);
+        }
+
     }
 }

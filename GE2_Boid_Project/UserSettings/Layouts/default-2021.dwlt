@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Console
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 111
+  controlID: 58
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 363
     height: 561
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 19
+  controlID: 48
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 20
+  controlID: 49
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts 1
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts 1
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Github Repos\GE2-Boid-Project\GE2_Boid_Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3a5b0000
-    m_LastClickedID: 23354
-    m_ExpandedIDs: 000000000c5b000000ca9a3bffffff7f
+    m_SelectedIDs: 2e5b0000
+    m_LastClickedID: 23342
+    m_ExpandedIDs: 000000002e5b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000c5b0000
+    m_ExpandedIDs: 000000002e5b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -385,8 +385,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 8e110000
-    m_LastClickedInstanceID: 4494
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000e65a000000000000
     m_RenameOverlay:
@@ -488,23 +488,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 947cfaff
-      m_LastClickedID: -361324
-      m_ExpandedIDs: 96e0faffb0f3faff7e10fbff1c1ffbff2843fbff9e69fbfff89cfbff34dcfbffd8defcfff2d4fdff9878feffbcd2feff9881ffffbcdbfffffcf2ffff36fbffff
+      m_SelectedIDs: 8a5a0000
+      m_LastClickedID: 23178
+      m_ExpandedIDs: 383af2ffa6c9f3ffce10f4ff3a12f4ffe855f4ff78a0f5ff12b5f5ffe2b7f5ffbe4ef6ff9657f6ff6a58f6ffd07ef6ff8e9bf7ff96a5f7ffa8d1f7ff08e5f7ff04d8f8ffbe68f9ff367df9ff62c2f9ff889afaff8c9bfaff7c23fbffa859fcffb071fcff64bafdff1ed4fdff3cd6fdff0a14feff243bfeff8240feffb078feff62bafeff34fbffff36fbffff745a00007e5a00008a5a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Fish Head
-        m_OriginalName: Fish Head
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 23150
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -739,9 +739,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.45040777, y: -2.6308727, z: 19.102497}
+    m_Target: {x: -51.906452, y: -24.9499, z: -21.899063}
     speed: 2
-    m_Value: {x: -0.45040777, y: -2.6308727, z: 19.102497}
+    m_Value: {x: -51.906452, y: -24.9499, z: -21.899063}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -788,13 +788,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.1419541, y: -0.8024649, z: 0.21241508, w: -0.5394961}
+    m_Target: {x: 0.06183535, y: 0.31557956, z: -0.021202907, w: 0.9468303}
     speed: 2
-    m_Value: {x: -0.14193444, y: -0.80235374, z: 0.21238567, w: -0.5394214}
+    m_Value: {x: 0.061824493, y: 0.31552416, z: -0.021199185, w: 0.94666404}
   m_Size:
-    m_Target: 1.7316658
+    m_Target: 1.7320508
     speed: 2
-    m_Value: 1.7316658
+    m_Value: 1.7320508
   m_Ortho:
     m_Target: 0
     speed: 2

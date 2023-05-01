@@ -31,13 +31,16 @@ public class Nematode : MonoBehaviour
             {
                 firstSphere.AddComponent<Boid>();
                 firstSphere.AddComponent<ObstacleAvoidance>();
-                //firstSphere.AddComponent<NoiseWander>();
-                //firstSphere.AddComponent<Pursue>();
+                firstSphere.AddComponent<NoiseWander>();
+                firstSphere.AddComponent<Seek>();
+                firstSphere.GetComponent<Seek>().enabled = false;
                 firstSphere.AddComponent<Constrain>();
+                firstSphere.AddComponent<Rigidbody>();
+                firstSphere.GetComponent<Rigidbody>().useGravity = false;
             }
 
             firstSphere.transform.position = new Vector3(0f, 0f, i);
-            meshRenderer.material.color = Color.HSVToRGB(height, 1f, 1f);
+            meshRenderer.material.color = Color.HSVToRGB(0f, 0f, 1f);
             firstSphere.transform.SetParent(transform);
             firstSphere.transform.localPosition = new Vector3(0f, 0f, i * 1f);
 

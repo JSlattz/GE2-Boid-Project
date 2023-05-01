@@ -134,6 +134,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant Stem
       objectReference: {fileID: 0}
+    - target: {fileID: 2068338186830540618, guid: 0d38c69d1a4ab134e9213c56360ea7c4, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2068338186830540618, guid: 0d38c69d1a4ab134e9213c56360ea7c4, type: 3}
+      propertyPath: m_TagString
+      value: Food
+      objectReference: {fileID: 0}
     - target: {fileID: 2068338186830540622, guid: 0d38c69d1a4ab134e9213c56360ea7c4, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -185,81 +193,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 977916013797194455, guid: 1ccc1421375f47a4abc1f59449b9a960, type: 3}
   m_PrefabInstance: {fileID: 2003177187}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &392245991
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 392245993}
-  - component: {fileID: 392245992}
-  m_Layer: 0
-  m_Name: Fish Spawner (5)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &392245992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 392245991}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34da30bd0a62d0a49859367aea192d0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  behavioralCh: {x: 2, y: 6}
-  debug: 0
-  flockNum: 2
-  fragmentedFlock: 30
-  fragmentedFlockYLimit: 0.5
-  migrationFrequency: 0.1
-  posChangeFrequency: 0.5
-  smoothChFrequency: 0.5
-  fishPrefab: {fileID: 1950551285}
-  fishNum: 10
-  birdSpeed: 1
-  fragmentedBirds: 10
-  fragmentedBirdsYLimit: 1
-  soaring: 0.5
-  verticalWawe: 20
-  rotationClamp: 0
-  rotationClampValue: 50
-  scaleRandom: {x: 1, y: 1.5}
-  danger: 0
-  dangerRadius: 15
-  dangerSpeed: 1.5
-  dangerSoaring: 0.5
-  dangerLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  birdsTransform: []
-  flocksTransform: []
-  rdTargetPos: []
-  flockPos: []
-  velFlocks: []
-  curentFlock: 
---- !u!4 &392245993
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 392245991}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39.900192, y: -30.903141, z: 53.18}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &396471156
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -366,7 +299,7 @@ MonoBehaviour:
   seedPrefab: {fileID: 977916013797194455, guid: 1ccc1421375f47a4abc1f59449b9a960, type: 3}
   basePlantPrefab: {fileID: 1981086666}
   radius: 50
-  count: 10
+  count: 100
 --- !u!4 &652612120
 Transform:
   m_ObjectHideFlags: 0
@@ -381,81 +314,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &698314012
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 698314014}
-  - component: {fileID: 698314013}
-  m_Layer: 0
-  m_Name: Fish Spawner (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &698314013
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 698314012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34da30bd0a62d0a49859367aea192d0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  behavioralCh: {x: 2, y: 6}
-  debug: 0
-  flockNum: 2
-  fragmentedFlock: 30
-  fragmentedFlockYLimit: 0.5
-  migrationFrequency: 0.1
-  posChangeFrequency: 0.5
-  smoothChFrequency: 0.5
-  fishPrefab: {fileID: 1950551285}
-  fishNum: 10
-  birdSpeed: 1
-  fragmentedBirds: 10
-  fragmentedBirdsYLimit: 1
-  soaring: 0.5
-  verticalWawe: 20
-  rotationClamp: 0
-  rotationClampValue: 50
-  scaleRandom: {x: 1, y: 1.5}
-  danger: 0
-  dangerRadius: 15
-  dangerSpeed: 1.5
-  dangerSoaring: 0.5
-  dangerLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  birdsTransform: []
-  flocksTransform: []
-  rdTargetPos: []
-  flockPos: []
-  velFlocks: []
-  curentFlock: 
---- !u!4 &698314014
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 698314012}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 115.2, y: -30.903141, z: -16.889864}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -629,7 +487,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalPosition: {x: 40.8, y: -20.2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -820,6 +678,39 @@ MonoBehaviour:
   UvBumpRotateSpeed: 0.4
   UvBumpRotateDistance: 2
   depthTextureModeOn: 1
+--- !u!1 &1256816228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1256816229}
+  m_Layer: 0
+  m_Name: WormHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1256816229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256816228}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -18.060318, y: -18.98985, z: -13.025548}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1369160470}
+  - {fileID: 1950551287}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1369160468
 GameObject:
   m_ObjectHideFlags: 0
@@ -829,7 +720,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1369160470}
-  - component: {fileID: 1369160471}
+  - component: {fileID: 1369160472}
   m_Layer: 0
   m_Name: Fish Spawner
   m_TagString: Untagged
@@ -844,15 +735,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1369160468}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39.900192, y: -30.903141, z: -16.889864}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 57.96051, y: -11.913292, z: -3.864316}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1256816229}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1369160471
+--- !u!114 &1369160472
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -861,40 +752,34 @@ MonoBehaviour:
   m_GameObject: {fileID: 1369160468}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34da30bd0a62d0a49859367aea192d0d, type: 3}
+  m_Script: {fileID: 11500000, guid: 12610914af1cc74489a954434ea9e038, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  behavioralCh: {x: 2, y: 6}
-  debug: 0
-  flockNum: 2
-  fragmentedFlock: 30
-  fragmentedFlockYLimit: 0.5
-  migrationFrequency: 0.1
-  posChangeFrequency: 0.5
-  smoothChFrequency: 0.5
-  fishPrefab: {fileID: 1950551285}
-  fishNum: 10
-  birdSpeed: 1
-  fragmentedBirds: 10
-  fragmentedBirdsYLimit: 1
-  soaring: 0.5
-  verticalWawe: 20
-  rotationClamp: 0
-  rotationClampValue: 50
-  scaleRandom: {x: 1, y: 1.5}
-  danger: 0
-  dangerRadius: 15
-  dangerSpeed: 1.5
-  dangerSoaring: 0.5
-  dangerLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  birdsTransform: []
-  flocksTransform: []
-  rdTargetPos: []
-  flockPos: []
-  velFlocks: []
-  curentFlock: 
+  prefab: {fileID: 1950551285}
+  InsFish: []
+  radius: 50
+  count: 20
+--- !u!1 &1433755315 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2068338186830540618, guid: 0d38c69d1a4ab134e9213c56360ea7c4, type: 3}
+  m_PrefabInstance: {fileID: 125851633}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1433755321
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433755315}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1001 &1494107612
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1003,9 +888,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2068338186830540609, guid: 0d38c69d1a4ab134e9213c56360ea7c4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2068338186830540609, guid: 0d38c69d1a4ab134e9213c56360ea7c4, type: 3}
+      propertyPath: plantHeightMax
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2068338186830540609, guid: 0d38c69d1a4ab134e9213c56360ea7c4, type: 3}
+      propertyPath: plantHeightMin
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2068338186830540618, guid: 0d38c69d1a4ab134e9213c56360ea7c4, type: 3}
       propertyPath: m_Name
       value: Base Plant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2068338186830540618, guid: 0d38c69d1a4ab134e9213c56360ea7c4, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2068338186830540618, guid: 0d38c69d1a4ab134e9213c56360ea7c4, type: 3}
+      propertyPath: m_TagString
+      value: Food
       objectReference: {fileID: 0}
     - target: {fileID: 2068338186830540622, guid: 0d38c69d1a4ab134e9213c56360ea7c4, type: 3}
       propertyPath: m_RootOrder
@@ -1053,156 +958,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d38c69d1a4ab134e9213c56360ea7c4, type: 3}
---- !u!1 &1729040348
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1729040350}
-  - component: {fileID: 1729040349}
-  m_Layer: 0
-  m_Name: Fish Spawner (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1729040349
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1729040348}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34da30bd0a62d0a49859367aea192d0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  behavioralCh: {x: 2, y: 6}
-  debug: 0
-  flockNum: 2
-  fragmentedFlock: 30
-  fragmentedFlockYLimit: 0.5
-  migrationFrequency: 0.1
-  posChangeFrequency: 0.5
-  smoothChFrequency: 0.5
-  fishPrefab: {fileID: 1950551285}
-  fishNum: 10
-  birdSpeed: 1
-  fragmentedBirds: 10
-  fragmentedBirdsYLimit: 1
-  soaring: 0.5
-  verticalWawe: 20
-  rotationClamp: 0
-  rotationClampValue: 50
-  scaleRandom: {x: 1, y: 1.5}
-  danger: 0
-  dangerRadius: 15
-  dangerSpeed: 1.5
-  dangerSoaring: 0.5
-  dangerLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  birdsTransform: []
-  flocksTransform: []
-  rdTargetPos: []
-  flockPos: []
-  velFlocks: []
-  curentFlock: 
---- !u!4 &1729040350
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1729040348}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.64, y: -30.903141, z: -16.889864}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1780906805
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1780906807}
-  - component: {fileID: 1780906806}
-  m_Layer: 0
-  m_Name: Fish Spawner (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1780906806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1780906805}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34da30bd0a62d0a49859367aea192d0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  behavioralCh: {x: 2, y: 6}
-  debug: 0
-  flockNum: 2
-  fragmentedFlock: 30
-  fragmentedFlockYLimit: 0.5
-  migrationFrequency: 0.1
-  posChangeFrequency: 0.5
-  smoothChFrequency: 0.5
-  fishPrefab: {fileID: 1950551285}
-  fishNum: 10
-  birdSpeed: 1
-  fragmentedBirds: 10
-  fragmentedBirdsYLimit: 1
-  soaring: 0.5
-  verticalWawe: 20
-  rotationClamp: 0
-  rotationClampValue: 50
-  scaleRandom: {x: 1, y: 1.5}
-  danger: 0
-  dangerRadius: 15
-  dangerSpeed: 1.5
-  dangerSoaring: 0.5
-  dangerLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  birdsTransform: []
-  flocksTransform: []
-  rdTargetPos: []
-  flockPos: []
-  velFlocks: []
-  curentFlock: 
---- !u!4 &1780906807
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1780906805}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39.900192, y: -30.903141, z: -84.8}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1950551285
 GameObject:
   m_ObjectHideFlags: 0
@@ -1214,6 +969,7 @@ GameObject:
   - component: {fileID: 1950551287}
   - component: {fileID: 1950551286}
   - component: {fileID: 1950551288}
+  - component: {fileID: 1950551291}
   m_Layer: 0
   m_Name: Fish Head
   m_TagString: Untagged
@@ -1245,13 +1001,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1950551285}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39.900192, y: -30.903141, z: -16.889864}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 57.96051, y: -11.913292, z: -3.864316}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 1256816229}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1950551288
 MonoBehaviour:
@@ -1268,6 +1024,19 @@ MonoBehaviour:
   offsets: []
   children: []
   damping: 1
+--- !u!135 &1950551291
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950551285}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1981086666 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2068338186830540618, guid: 0d38c69d1a4ab134e9213c56360ea7c4, type: 3}
@@ -1291,6 +1060,18 @@ PrefabInstance:
     - target: {fileID: 977916013797194455, guid: 1ccc1421375f47a4abc1f59449b9a960, type: 3}
       propertyPath: m_Name
       value: Seed
+      objectReference: {fileID: 0}
+    - target: {fileID: 977916013797194455, guid: 1ccc1421375f47a4abc1f59449b9a960, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 977916013797194455, guid: 1ccc1421375f47a4abc1f59449b9a960, type: 3}
+      propertyPath: m_TagString
+      value: Food
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522680974988522048, guid: 1ccc1421375f47a4abc1f59449b9a960, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4642922153713132602, guid: 1ccc1421375f47a4abc1f59449b9a960, type: 3}
       propertyPath: m_RootOrder
@@ -1338,81 +1119,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ccc1421375f47a4abc1f59449b9a960, type: 3}
---- !u!1 &2045247440
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2045247442}
-  - component: {fileID: 2045247441}
-  m_Layer: 0
-  m_Name: Fish Spawner (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2045247441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045247440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34da30bd0a62d0a49859367aea192d0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  behavioralCh: {x: 2, y: 6}
-  debug: 0
-  flockNum: 2
-  fragmentedFlock: 30
-  fragmentedFlockYLimit: 0.5
-  migrationFrequency: 0.1
-  posChangeFrequency: 0.5
-  smoothChFrequency: 0.5
-  fishPrefab: {fileID: 1950551285}
-  fishNum: 10
-  birdSpeed: 1
-  fragmentedBirds: 10
-  fragmentedBirdsYLimit: 1
-  soaring: 0.5
-  verticalWawe: 20
-  rotationClamp: 0
-  rotationClampValue: 50
-  scaleRandom: {x: 1, y: 1.5}
-  danger: 0
-  dangerRadius: 15
-  dangerSpeed: 1.5
-  dangerSoaring: 0.5
-  dangerLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  birdsTransform: []
-  flocksTransform: []
-  rdTargetPos: []
-  flockPos: []
-  velFlocks: []
-  curentFlock: 
---- !u!4 &2045247442
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2045247440}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 39.900192, y: -30.903141, z: -16.889864}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2114875334 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5895466165155945477, guid: 5e299317a506966468f7874a31e8da75, type: 3}

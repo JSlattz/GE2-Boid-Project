@@ -31,7 +31,7 @@ public class newBoidsScript : MonoBehaviour
 
     Transform thisTransform, dangerTransform;
     int dangerBird;
-    public Transform[] birdsTransform, flocksTransform;
+    Transform[] fishTransform, flocksTransform;
     public Vector3[] rdTargetPos, flockPos, velFlocks;
     float[] birdsSpeed, birdsSpeedCur, spVelocity;
     public int[] curentFlock;
@@ -56,14 +56,14 @@ public class newBoidsScript : MonoBehaviour
     {
         //--------------  
 
-        FlocksMove();
-        BirdsMove();
+        SchoolsMove();
+        FishMove();
 
         //--------------
     }
 
 
-    void FlocksMove()
+    void SchoolsMove()
     {
         //--------------  
 
@@ -79,7 +79,7 @@ public class newBoidsScript : MonoBehaviour
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-    void BirdsMove()
+    void FishMove()
     {
         //--------------
 
@@ -94,11 +94,11 @@ public class newBoidsScript : MonoBehaviour
         for (int b = 0; b < fishNum; b++)
         {
             if (birdsSpeedCur[b] != birdsSpeed[b]) birdsSpeedCur[b] = Mathf.SmoothDamp(birdsSpeedCur[b], birdsSpeed[b], ref spVelocity[b], 0.5f);
-            birdsTransform[b].Translate(translateCur * birdsSpeed[b]);
-            Vector3 tpCh = flocksTransform[curentFlock[b]].position + rdTargetPos[b] + verticalWaweCur - birdsTransform[b].position;
-            Quaternion rotationCur = Quaternion.LookRotation(Vector3.RotateTowards(birdsTransform[b].forward, tpCh, soaringCur, 0));
-            if (rotationClamp == false) birdsTransform[b].rotation = rotationCur;
-            else birdsTransform[b].localRotation = FishRotationClamp(rotationCur, rotationClampValue);
+            fishTransform[b].Translate(translateCur * birdsSpeed[b]);
+            Vector3 tpCh = flocksTransform[curentFlock[b]].position + rdTargetPos[b] + verticalWaweCur - fishTransform[b].position;
+            Quaternion rotationCur = Quaternion.LookRotation(Vector3.RotateTowards(fishTransform[b].forward, tpCh, soaringCur, 0));
+            if (rotationClamp == false) fishTransform[b].rotation = rotationCur;
+            else fishTransform[b].localRotation = FishRotationClamp(rotationCur, rotationClampValue);
         }
 
         //--------------
@@ -163,15 +163,10 @@ public class newBoidsScript : MonoBehaviour
         }
     }
 
-
-    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
     void CreateFish()
     {
-        //--------------
 
-        birdsTransform = new Transform[fishNum];
+        fishTransform = new Transform[fishNum];
         birdsSpeed = new float[fishNum];
         birdsSpeedCur = new float[fishNum];
         rdTargetPos = new Vector3[fishNum];
@@ -179,11 +174,14 @@ public class newBoidsScript : MonoBehaviour
 
         for (int b = 0; b < fishNum; b++)
         {
-            birdsTransform[b] = Instantiate(fishPrefab, thisTransform).transform;
+            float rndColor = Random.Range(0, 1);
+            MeshRenderer meshRenderer = fishPrefab.GetComponent<MeshRenderer>();
+            meshRenderer.material.color = new Color(rndColor, rndColor, rndColor);
+            fishTransform[b] = Instantiate(fishPrefab, thisTransform).transform;
             Vector3 lpv = Random.insideUnitSphere * scatteredFish;
-            birdsTransform[b].localPosition = rdTargetPos[b] = new Vector3(lpv.x, lpv.y * scatterdFishYLimit, lpv.z);
-            birdsTransform[b].localScale = Vector3.one * Random.Range(scaleRandom.x, scaleRandom.y);
-            birdsTransform[b].localRotation = Quaternion.Euler(0, Random.value * 360, 0);
+            fishTransform[b].localPosition = rdTargetPos[b] = new Vector3(lpv.x, lpv.y * scatterdFishYLimit, lpv.z);
+            fishTransform[b].localScale = Vector3.one * Random.Range(scaleRandom.x, scaleRandom.y);
+            fishTransform[b].localRotation = Quaternion.Euler(0, Random.value * 360, 0);
             curentFlock[b] = Random.Range(0, schoolNum);
             birdsSpeed[b] = Random.Range(3.0f, 7.0f);
         }
