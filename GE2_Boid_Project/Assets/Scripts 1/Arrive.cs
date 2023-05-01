@@ -21,7 +21,7 @@ public class Arrive: SteeringBehaviour
 
     public override Vector3 Calculate()
     {
-        Vector3 force = boid.ArriveForce(targetPosition, slowingDistance, decelleration);
+        Vector3 force = boid.ArriveForce(targetPosition);
         return force;
     }
 

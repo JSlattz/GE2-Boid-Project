@@ -27,7 +27,7 @@ public class PlantSpawnerScript : MonoBehaviour
             //prefab.SetActive(true);
             
             float rnd = Random.Range(0f, 360f);
-            Vector3 pos = new Vector3(Random.insideUnitSphere.x * radius, -31.6f, Random.insideUnitSphere.z * radius);
+            Vector3 pos = new Vector3(Random.insideUnitSphere.x * radius, -26.11f, Random.insideUnitSphere.z * radius);
             Quaternion rotation = Quaternion.Euler(0, 0, 0);
             Instantiate(prefab, pos, rotation);
 

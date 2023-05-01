@@ -364,6 +364,7 @@
 "Assets/Scripts 1/JitterWander.cs"
 "Assets/Scripts 1/Nematode.cs"
 "Assets/Scripts 1/NematodeSchool.cs"
+"Assets/Scripts 1/newBoidsScript.cs"
 "Assets/Scripts 1/NoiseWander.cs"
 "Assets/Scripts 1/ObstacleAvoidance.cs"
 "Assets/Scripts 1/OffsetPursue.cs"

@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Pursue : SteeringBehaviour
 {
+    public GameObject targetGO;
     public Boid target;
 
     Vector3 targetPos;
-
     public void Start()
     {
-        
+       targetGO = GameObject.FindWithTag("Leader");
+        target = targetGO.GetComponent<Boid>();
     }
 
     public void OnDrawGizmos()
@@ -27,7 +28,7 @@ public class Pursue : SteeringBehaviour
         float dist = Vector3.Distance(target.transform.position, transform.position);
         float time = dist / boid.maxSpeed;
 
-        targetPos = target.transform.position + (target.velocity * time);
+        targetPos = target.transform.position + (boid.velocity * time);
 
         return boid.SeekForce(targetPos);
     }

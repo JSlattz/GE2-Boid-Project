@@ -18,7 +18,7 @@ public class Boids : MonoBehaviour
     [Header("Seek")]
 
     public bool seekEnabled = true;
-    public Transform seekTargetTransform;
+    public GameObject seekTargetTransform;
     public Vector3 seekTarget;
 
     [Space]
@@ -32,9 +32,9 @@ public class Boids : MonoBehaviour
     [Space]
     [Header("Path")]
 
-    public Path path;
+    /*public Path path;
     public bool pathFollowingEnabled = false;
-    public float waypointDistance = 3;
+    public float waypointDistance = 3;*/
 
     [Space]
     [Header("Banking")]
@@ -67,7 +67,7 @@ public class Boids : MonoBehaviour
 
     void Start()
     {
-
+        seekTargetTransform = GameObject.FindWithTag("Leader");
     }
 
     void Update()
@@ -90,7 +90,7 @@ public class Boids : MonoBehaviour
         }
     }
 
-    public Vector3 PathFollow()
+    /*public Vector3 PathFollow()
     {
         Vector3 nextWaypoint = path.Next();
         if (!path.isLooped && path.IsLast())
@@ -105,7 +105,7 @@ public class Boids : MonoBehaviour
             }
             return Seek(nextWaypoint);
         }
-    }
+    }*/
 
     public Vector3 Seek(Vector3 target)
     {
@@ -165,7 +165,7 @@ public class Boids : MonoBehaviour
         {
             if (seekTargetTransform != null)
             {
-                seekTarget = seekTargetTransform.position;
+                seekTarget = seekTargetTransform.transform.position;
             }
             f += Seek(seekTarget);
         }
@@ -179,10 +179,10 @@ public class Boids : MonoBehaviour
             f += Arrive(arriveTarget);
         }
 
-        if (pathFollowingEnabled)
+        /*if (pathFollowingEnabled)
         {
             f += PathFollow();
-        }
+        }*/
 
         if (playerSteeringEnabled)
         {

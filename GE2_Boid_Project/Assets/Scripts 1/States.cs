@@ -30,7 +30,7 @@ public class DefendState : State
 {
     public override void Enter()
     {
-        owner.GetComponent<Pursue>().target = owner.GetComponent<Fighter>().enemy.GetComponent<Boid>();
+        //owner.GetComponent<Pursue>().target = owner.GetComponent<Fighter>().enemy.GetComponent<Boid>();
         owner.GetComponent<Pursue>().enabled = true;
     }
 
@@ -62,7 +62,7 @@ public class AttackState : State
 {
     public override void Enter()
     {
-        owner.GetComponent<Pursue>().target = owner.GetComponent<Fighter>().enemy.GetComponent<Boid>();
+        //owner.GetComponent<Pursue>().target = owner.GetComponent<Fighter>().enemy.GetComponent<Boid>();
         owner.GetComponent<Pursue>().enabled = true;
     }
 

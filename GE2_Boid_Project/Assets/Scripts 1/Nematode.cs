@@ -31,9 +31,9 @@ public class Nematode : MonoBehaviour
             {
                 firstSphere.AddComponent<Boid>();
                 firstSphere.AddComponent<ObstacleAvoidance>();
-                firstSphere.AddComponent<NoiseWander>();
+                //firstSphere.AddComponent<NoiseWander>();
+                //firstSphere.AddComponent<Pursue>();
                 firstSphere.AddComponent<Constrain>();
-
             }
 
             firstSphere.transform.position = new Vector3(0f, 0f, i);
@@ -42,6 +42,7 @@ public class Nematode : MonoBehaviour
             firstSphere.transform.localPosition = new Vector3(0f, 0f, i * 1f);
 
         }
+
         if (j <= Mathf.Ceil(length / 2))
         {
             firstSphere.transform.localScale += new Vector3(0.2f, 0.2f, 0.2f);
