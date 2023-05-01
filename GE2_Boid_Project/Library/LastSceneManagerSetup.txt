@@ -1,5 +1,5 @@
 sceneSetups:
-- path: C:/Users/jetsl/Documents/GitHub/GE2-Test-Starter/GE2 Test 2022 Starter Unity/Assets/GE2.unity
+- path: Assets/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
