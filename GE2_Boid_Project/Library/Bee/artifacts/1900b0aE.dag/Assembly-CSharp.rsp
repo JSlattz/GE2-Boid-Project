@@ -367,6 +367,7 @@
 "Assets/Scripts 1/FollowPath.cs"
 "Assets/Scripts 1/FPSController.cs"
 "Assets/Scripts 1/Harmonic.cs"
+"Assets/Scripts 1/HunterScript.cs"
 "Assets/Scripts 1/JitterWander.cs"
 "Assets/Scripts 1/Nematode.cs"
 "Assets/Scripts 1/NematodeSchool.cs"
