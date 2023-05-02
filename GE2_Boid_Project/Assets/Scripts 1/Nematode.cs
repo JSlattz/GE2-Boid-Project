@@ -12,7 +12,6 @@ public class Nematode : MonoBehaviour
 
     public GameObject firstSphere;
     Boid boid;
-    public bool baby = false;
     public Material material;
 
     void Awake()
@@ -44,15 +43,6 @@ public class Nematode : MonoBehaviour
             meshRenderer.material.color = Color.HSVToRGB(0f, 0f, 1f);
             firstSphere.transform.SetParent(transform);
             firstSphere.transform.localPosition = new Vector3(0f, 0f, i * 1f);
-
-            /*if(baby == true)
-            {
-                firstSphere.transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
-            }
-            else
-            {
-                firstSphere.transform.localScale = new Vector3(1f, 1f, 1f);
-            }*/
         }
         
         if (j <= Mathf.Ceil(length / 2))
@@ -70,10 +60,10 @@ public class Nematode : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       /*if(baby == true)
+       if(boid.baby == true)
         {
             StartCoroutine("growing");
-        }*/
+        }
     }
 
     // Update is called once per frame
@@ -84,7 +74,6 @@ public class Nematode : MonoBehaviour
     
     IEnumerator growing()
     {
-        baby = false;
         yield return new WaitForSeconds(10f);
         firstSphere.transform.localScale += new Vector3(0.3f, 0.3f, 0.3f);
         yield return new WaitForSeconds(10f);

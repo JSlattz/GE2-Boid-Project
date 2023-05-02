@@ -7,6 +7,13 @@ public class SpineAnimator : MonoBehaviour {
     public List<Transform> children = new List<Transform>();
     public float damping = 10.0f;
 
+
+    private void Awake()
+    {
+        offsets.Clear();
+        children.Clear();
+    }
+
     // Use this for initialization
     void Start()
     {

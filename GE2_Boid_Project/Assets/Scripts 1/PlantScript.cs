@@ -10,9 +10,11 @@ public class PlantScript : MonoBehaviour
     bool plantCanGrow = true; bool seedsReady = true;
     int i; public int seedTracker; public int j;
     PlantSpawnerScript plantSpawnerScript;
+
     // Start is called before the first frame update
     void Start()
     {
+        gameObject.GetComponent<PlantScript>().plantStems.Clear();
         plantHeightMin = Random.Range(5, 10);
         plantHeightMax = Random.Range(plantHeightMin, 30);
         rndPlantHeight = Random.Range(plantHeightMin, plantHeightMax);
@@ -20,15 +22,7 @@ public class PlantScript : MonoBehaviour
         plantHeight = rndPlantHeight;
         i = 0;
         j = plantStems.Count;
-        if( j > 1)
-        {
-            Destroy(plantStems[j]);
-            j--;
-        }
-        else
-        {
-            return;
-        }
+
         //seedPrefab = plantSpawnerScript.seedPrefab;
         //StartCoroutine("PlantGrowthTimer");
     }

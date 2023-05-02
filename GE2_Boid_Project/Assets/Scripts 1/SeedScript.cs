@@ -32,6 +32,7 @@ public class SeedScript : MonoBehaviour
             MeshRenderer meshRenderer = seed.GetComponent<MeshRenderer>();
             //meshRenderer.material.color = new Color(0f, 1f, 0.1600f);
             Instantiate(prefab, currentPos, rotation);
+            //prefab.GetComponent<PlantStarterScript>().enabled = true;
             prefab.GetComponent<PlantScript>().enabled = true;
             Destroy(this.gameObject);
         }

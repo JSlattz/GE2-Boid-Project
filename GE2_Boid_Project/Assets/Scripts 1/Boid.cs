@@ -24,7 +24,7 @@ public class Boid : MonoBehaviour
 
     [Space]
     [Header("Pregnacy")]
-    public bool pregnant = false; public bool checkingPregnancy = false; public bool gestating; //public bool baby = false;
+    public bool pregnant = false; public bool checkingPregnancy = false; public bool gestating; public bool baby = false;
     public GameObject prefab;
 
     public void OnDrawGizmos()
@@ -39,8 +39,13 @@ public class Boid : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        StartCoroutine("hungerCountdown");
-        prefab = GameObject.Find("Base Fish Head");
+        if(gameObject.tag != "Seed")
+        {
+            StartCoroutine("hungerCountdown");
+        }
+        
+        prefab = GameObject.Find("Baby Fish Head");
+
         SteeringBehaviour[] behaviours = GetComponents<SteeringBehaviour>();
         foreach (SteeringBehaviour b in behaviours)
         {
@@ -109,11 +114,11 @@ public class Boid : MonoBehaviour
     {
         yield return new WaitForSeconds(5f);
         hunger--;
-        if(hunger < 50 && this.gameObject.tag != "Food")
+        if(hunger < 50)
         {
             this.GetComponent<Seek>().enabled = true;
         }
-        else if(hunger >= 50 && this.gameObject.tag != "Food")
+        else if(hunger >= 50)
         {
             this.GetComponent<Seek>().enabled = false;
         }
@@ -155,9 +160,9 @@ public class Boid : MonoBehaviour
             Debug.Log("stage complete");
             Debug.Log(i);
         }
-        //nematode.baby = true;
-        gestating = false;
+        gestating = false; baby = true;
         meshRenderer.material.color = Color.HSVToRGB(0f, 0f, 1f);
+        prefab.AddComponent<Nematode>(); prefab.AddComponent<SpineAnimator>();
         prefab.GetComponent<Nematode>().enabled = true; prefab.GetComponent<SpineAnimator>().enabled = true; prefab.GetComponent<SphereCollider>().enabled = true;
         Instantiate(prefab, transform.position, transform.rotation);
         Debug.Log("pregnancy done");
