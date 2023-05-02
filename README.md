@@ -6,7 +6,7 @@ Student Number: C19774569
 Class Group: DT508
 
 # Video
-[Video](https://youtu.be/TL8-2KNXcfU)
+[Video](https://www.youtube.com/watch?v=TL8-2KNXcfU&t=1s)
 
 # Description
 An underwater predator-prey simualtion involving plants, herbivores and carnivores
