@@ -6,6 +6,7 @@ public class Boid : MonoBehaviour
 {
     List<SteeringBehaviour> behaviours = new List<SteeringBehaviour>();
     NematodeSchool nematodeSchool;
+    Nematode nematode;
 
     public Vector3 force = Vector3.zero;
     public Vector3 acceleration = Vector3.zero;
@@ -23,7 +24,7 @@ public class Boid : MonoBehaviour
 
     [Space]
     [Header("Pregnacy")]
-    public bool pregnant = false; public bool checkingPregnancy = false; public bool gestating; public bool baby = false;
+    public bool pregnant = false; public bool checkingPregnancy = false; public bool gestating; //public bool baby = false;
     public GameObject prefab;
 
     public void OnDrawGizmos()
@@ -39,7 +40,7 @@ public class Boid : MonoBehaviour
     void Start()
     {
         StartCoroutine("hungerCountdown");
-        prefab = GameObject.Find("Fish Head");
+        prefab = GameObject.Find("Base Fish Head");
         SteeringBehaviour[] behaviours = GetComponents<SteeringBehaviour>();
         foreach (SteeringBehaviour b in behaviours)
         {
@@ -154,9 +155,10 @@ public class Boid : MonoBehaviour
             Debug.Log("stage complete");
             Debug.Log(i);
         }
-        baby = true;
+        //nematode.baby = true;
         gestating = false;
         meshRenderer.material.color = Color.HSVToRGB(0f, 0f, 1f);
+        prefab.GetComponent<Nematode>().enabled = true; prefab.GetComponent<SpineAnimator>().enabled = true; prefab.GetComponent<SphereCollider>().enabled = true;
         Instantiate(prefab, transform.position, transform.rotation);
         Debug.Log("pregnancy done");
     }

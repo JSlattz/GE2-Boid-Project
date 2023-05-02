@@ -37,6 +37,10 @@ public class PlantScript : MonoBehaviour
     void Update()
     {
         PlantGrow();
+        if(seedTracker == 3)
+        {
+            Destroy(gameObject);
+        }
     }
 
     void PlantGrow()

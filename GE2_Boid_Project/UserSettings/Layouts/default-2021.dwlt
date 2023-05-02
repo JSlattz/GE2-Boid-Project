@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 17
+  controlID: 21
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 23
+  controlID: 27
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 24
+  controlID: 28
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -298,7 +298,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 634
-    width: 1465
+    width: 1466
     height: 365
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -330,8 +330,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 925b0000
-    m_LastClickedID: 23442
+    m_SelectedIDs: 905b0000
+    m_LastClickedID: 23440
     m_ExpandedIDs: 00000000525b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -385,8 +385,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 20f1ffff
-    m_LastClickedInstanceID: -3808
+    m_SelectedInstanceIDs: 26150000
+    m_LastClickedInstanceID: 5414
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000e65a000000000000
     m_RenameOverlay:
@@ -488,23 +488,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6012f8ff
-      m_LastClickedID: -519584
-      m_ExpandedIDs: 6012f8ffaccef8ff9061f9ff548df9ff5095f9ffc2ccf9ff18ddfaffe209fdff8858fdff288cfdfff489ffffa493ffff36fbffff9e5a0000b05a0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 127efdff14ccfdff9005feffda1ffeff2c30feffcac1feff10c2feff10f7feff4cd8ffff84e3ffff36fbffff9e5a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Base Fish Head
+        m_OriginalName: Base Fish Head
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -129648
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -739,9 +739,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 33.319557, y: -6.8767138, z: -29.220201}
+    m_Target: {x: 132.21436, y: -7.0419044, z: 45.961163}
     speed: 2
-    m_Value: {x: 33.319557, y: -6.8767138, z: -29.220201}
+    m_Value: {x: 132.21436, y: -7.0419044, z: 45.961163}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -788,13 +788,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.38262573, y: 0.17199552, z: -0.07231088, w: -0.9050662}
+    m_Target: {x: -0.31365117, y: 0.6860487, z: -0.48671895, w: -0.44094697}
     speed: 2
-    m_Value: {x: -0.38255715, y: 0.17196469, z: -0.072297916, w: -0.90490395}
+    m_Value: {x: -0.31359327, y: 0.685922, z: -0.4866291, w: -0.44086555}
   m_Size:
-    m_Target: 1.809993
+    m_Target: 10
     speed: 2
-    m_Value: 1.809993
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
