@@ -1,0 +1,539 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1683061446344808, "dur": 12686204, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683061446346174, "dur": 13809, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683061446360128, "dur": 34564, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683061446394715, "dur": 1439608, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683061447834324, "dur": 11186723, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683061459021068, "dur": 9943, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683061472204462, "dur": 3146088, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683061472204708, "dur": 3247, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683061472207957, "dur": 30959, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683061472238919, "dur": 896011, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683061473134931, "dur": 2212651, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683061475347587, "dur": 2960, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683061475353968, "dur": 97, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1683061472904176, "dur": 213158, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1683061472905211, "dur": 43376, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1683061473102088, "dur": 4380, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1683061473106471, "dur": 10857, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1683061473107160, "dur": 9561, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1683061473122018, "dur": 1282, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1683061473121207, "dur": 2117, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683061475354385, "dur": 839, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1683061473174663, "dur":1124, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061473175797, "dur":51, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1683061473175861, "dur":18, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1683061473175880, "dur":404, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1683061473176308, "dur":471, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061473176779, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475300493, "dur":756, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475301249, "dur":494, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475301743, "dur":18, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475301761, "dur":69, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475301830, "dur":22, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475301852, "dur":44, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475301896, "dur":12, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475301909, "dur":37, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475301946, "dur":12, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475301959, "dur":38, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475301998, "dur":12, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475302010, "dur":37, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475302048, "dur":12, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475302060, "dur":46, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475302106, "dur":10, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475302116, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475302139, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475302148, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475302173, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475302181, "dur":29, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475302210, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475302219, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475302243, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475302252, "dur":27, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475302279, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475302325, "dur":7, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475302429, "dur":6143, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1683061473176620, "dur":205, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683061473176827, "dur":2687, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683061473179529, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683061473179539, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683061473181452, "dur":385, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683061473181870, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683061473181909, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683061473190857, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1683061473192989, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1683061473193027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683061473198969, "dur":114391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1683061473313389, "dur":29469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project.exe" }}
+,{ "pid":12345, "tid":1, "ts":1683061473342864, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683061473342873, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project.exe" }}
+,{ "pid":12345, "tid":1, "ts":1683061473344391, "dur":40638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683061473385035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683061473385042, "dur":94683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683061473479755, "dur":228603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683061473708365, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683061473708377, "dur":1644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683061473710050, "dur":138717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683061473848775, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683061473848786, "dur":126103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683061473975046, "dur":168933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683061474143985, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683061474143997, "dur":3299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683061474147324, "dur":38076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683061474185411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683061474185423, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683061474186826, "dur":1721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683061474188561, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683061474188574, "dur":1703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683061474190305, "dur":1207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683061474191548, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683061474191560, "dur":1385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683061474192968, "dur":38947, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683061474231923, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683061474231936, "dur":2251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683061474234210, "dur":149652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683061474383893, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683061474383904, "dur":1506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683061474385449, "dur":247181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683061474632637, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683061474632649, "dur":2104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1683061474634783, "dur":665695, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683061473177174, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683061473177174, "dur":2348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683061473179530, "dur":646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1683061473180179, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683061473192652, "dur":120649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1683061473313334, "dur":404825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1683061473718201, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683061473718211, "dur":11156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1683061473729409, "dur":97017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683061473826434, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683061473826446, "dur":6295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683061473832769, "dur":29110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683061473861885, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683061473861893, "dur":113335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683061473975427, "dur":33930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683061474009363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683061474009373, "dur":2772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683061474012172, "dur":55813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683061474067990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683061474068030, "dur":2072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683061474070127, "dur":27214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683061474097346, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683061474097358, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683061474099423, "dur":145030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683061474244460, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683061474244472, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683061474246670, "dur":295214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683061474541926, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683061474541940, "dur":2036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683061474544001, "dur":479678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683061475023693, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683061475023715, "dur":4673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1683061475028433, "dur":272073, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683061473176897, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683061473176898, "dur":2625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683061473179530, "dur":37913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1683061473217447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683061473217463, "dur":2608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1683061473220087, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1683061473220118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683061473220125, "dur":244125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1683061473464272, "dur":57048, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683061473521328, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683061473521338, "dur":12967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683061473534328, "dur":288257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683061473822592, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683061473822604, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683061473824235, "dur":32333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683061473856580, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683061473856595, "dur":117522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683061473974176, "dur":85407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683061474059588, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683061474059598, "dur":3761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683061474063397, "dur":83750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683061474147153, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683061474147168, "dur":7592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683061474154785, "dur":51951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683061474206741, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683061474206753, "dur":1621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683061474208400, "dur":38986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683061474247392, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683061474247404, "dur":3827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683061474251257, "dur":234504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683061474485769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683061474485781, "dur":2813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683061474488622, "dur":726084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683061475214720, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683061475214742, "dur":85575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1683061475300367, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1683061475300375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683061473176753, "dur":112, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683061473176865, "dur":2692, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683061473179557, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1683061473180107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683061473198988, "dur":114435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1683061473313459, "dur":65276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061473378741, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683061473378749, "dur":100961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061473479745, "dur":31711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061473511465, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683061473511499, "dur":20518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061473532042, "dur":32660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061473564709, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683061473564725, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061473566201, "dur":66631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061473632839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683061473632851, "dur":1698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061473634574, "dur":97398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061473731980, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683061473731992, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061473734530, "dur":55280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061473789817, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683061473789830, "dur":1694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061473791551, "dur":72272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061473863828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683061473863835, "dur":110897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061473974761, "dur":39793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061474014563, "dur":100, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683061474014676, "dur":8271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061474022973, "dur":45719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061474068717, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683061474068729, "dur":2252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061474071009, "dur":224188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061474295205, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683061474295232, "dur":14640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061474309895, "dur":170800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061474480705, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683061474480723, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061474482548, "dur":98757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061474581310, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683061474581321, "dur":21222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1683061474602571, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1683061474602849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683061474603426, "dur":1902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1683061474605359, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683061474605458, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683061474605472, "dur":8156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683061474613653, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1683061474613940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683061474613951, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1683061474615300, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1683061474615325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683061474615334, "dur":1575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1683061474616931, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683061474616956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683061474616963, "dur":3195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1683061474620193, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1683061474620522, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683061474620533, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1683061474622265, "dur":678228, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683061473177032, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683061473177032, "dur":2527, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683061473179559, "dur":640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1683061473180202, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683061473198991, "dur":265319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1683061473464329, "dur":52885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683061473517220, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683061473517233, "dur":16830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683061473534087, "dur":34240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683061473568333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683061473568344, "dur":5503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683061473573871, "dur":256530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683061473830409, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683061473830425, "dur":7218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683061473837679, "dur":40281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683061473877966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683061473877973, "dur":97008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683061473975022, "dur":63609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683061474038639, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683061474038651, "dur":4437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683061474043120, "dur":37731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683061474080859, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683061474080886, "dur":1789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683061474082701, "dur":59076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683061474141784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683061474141795, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683061474143794, "dur":1254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683061474145055, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683061474145066, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683061474147189, "dur":74960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683061474222173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683061474222184, "dur":1966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683061474224177, "dur":428805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683061474652989, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683061474653001, "dur":2706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1683061474655722, "dur":644763, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683061473177460, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683061473177460, "dur":2079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683061473179539, "dur":454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1683061473179996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683061473199032, "dur":113047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1683061473312106, "dur":406187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683061473718299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683061473718350, "dur":2051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683061473720431, "dur":121676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683061473842113, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683061473842124, "dur":132617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683061473974775, "dur":33211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683061474007991, "dur":181, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683061474008182, "dur":2383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683061474010596, "dur":36502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683061474047105, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683061474047120, "dur":5702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683061474052852, "dur":37447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683061474090307, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683061474090320, "dur":7926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683061474098269, "dur":75334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683061474173610, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683061474173621, "dur":8988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683061474182642, "dur":1508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683061474184163, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683061474184184, "dur":1680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683061474185887, "dur":88402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683061474274299, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683061474274326, "dur":1443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683061474275791, "dur":124330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683061474400129, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683061474400141, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683061474401711, "dur":179658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683061474581375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683061474581384, "dur":21465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1683061474602877, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1683061474602902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683061474602929, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1683061474604699, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1683061474604726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683061474604738, "dur":9403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1683061474614164, "dur":1260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1683061474615429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683061474615436, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1683061474616917, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1683061474616942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683061474616951, "dur":2698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1683061474619674, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1683061474619712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683061474619722, "dur":1804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1683061474621551, "dur":678985, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683061473177316, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683061473177316, "dur":2205, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683061473179529, "dur":121149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1683061473300682, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683061473311930, "dur":2677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1683061473314633, "dur":22026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683061473336665, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683061473336970, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683061473338108, "dur":23597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683061473361713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683061473361765, "dur":115065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683061473476858, "dur":52889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683061473529756, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683061473529775, "dur":4763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683061473534563, "dur":37509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683061473572081, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683061473572092, "dur":2332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683061473574447, "dur":266631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683061473841085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683061473841103, "dur":132969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683061473974097, "dur":31617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683061474005722, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683061474005734, "dur":2111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683061474007871, "dur":39906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683061474047784, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683061474047798, "dur":1694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683061474049540, "dur":33521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683061474083067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683061474083094, "dur":14236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683061474097354, "dur":41405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683061474138769, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683061474138785, "dur":2394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683061474141204, "dur":438035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683061474579247, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683061474579261, "dur":1751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683061474581035, "dur":206816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683061474787866, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683061474787888, "dur":3584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1683061474791519, "dur":508979, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683061473177593, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683061473177594, "dur":1940, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683061473179534, "dur":17227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1683061473196764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683061473196793, "dur":2810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1683061473199619, "dur":25338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1683061473224961, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683061473224973, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1683061473226080, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1683061473226111, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683061473226117, "dur":87067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1683061473313225, "dur":351812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683061473665045, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683061473665518, "dur":6686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683061473672232, "dur":149013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683061473821252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683061473821265, "dur":2098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683061473823389, "dur":33180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683061473856580, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683061473856595, "dur":117532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683061473974215, "dur":60680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683061474034904, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683061474034916, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683061474036756, "dur":166995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683061474203759, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683061474203771, "dur":2771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683061474206567, "dur":1127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683061474207701, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683061474207719, "dur":2870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683061474210615, "dur":1189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683061474211811, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683061474211824, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683061474213422, "dur":151868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683061474365298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683061474365310, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683061474367141, "dur":322030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683061474689177, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683061474689186, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1683061474691266, "dur":609283, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683061473177712, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683061473177712, "dur":1815, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683061473179529, "dur":461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1683061473179992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683061473192341, "dur":119697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1683061473312072, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1683061473312123, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683061473312135, "dur":214065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1683061473526228, "dur":43045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683061473569281, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683061473569293, "dur":5943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683061473575266, "dur":53155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683061473628429, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683061473628440, "dur":2566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683061473631031, "dur":221923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683061473852963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683061473852975, "dur":122656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683061473975686, "dur":33142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683061474008834, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683061474008845, "dur":2354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683061474011225, "dur":108758, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683061474119990, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683061474120003, "dur":2852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683061474122880, "dur":99318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683061474222203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683061474222211, "dur":2017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683061474224252, "dur":92703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683061474316962, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683061474316973, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683061474318470, "dur":49156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683061474367632, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683061474367644, "dur":3005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683061474370674, "dur":304655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683061474675355, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683061474675365, "dur":2036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1683061474677423, "dur":623136, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683061473177836, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683061473177837, "dur":1719, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683061473179557, "dur":25584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1683061473205145, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683061473205187, "dur":803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1683061473206003, "dur":94601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1683061473300612, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683061473300627, "dur":12788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1683061473313446, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1683061473313506, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683061473314363, "dur":165996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1683061473480391, "dur":34207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683061473514608, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683061473514621, "dur":19588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683061473534234, "dur":106407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683061473640650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683061473640664, "dur":3325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683061473644014, "dur":194734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683061473838786, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683061473838798, "dur":135628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683061473974449, "dur":34105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683061474008627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683061474008638, "dur":2874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683061474011539, "dur":47847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683061474059401, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683061474059424, "dur":3990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683061474063465, "dur":56518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683061474119991, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683061474120003, "dur":2653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683061474122684, "dur":134895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683061474257587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683061474257599, "dur":2555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683061474260178, "dur":122603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683061474382803, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683061474382816, "dur":2049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683061474384889, "dur":75798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683061474460694, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683061474460707, "dur":1542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683061474462273, "dur":170829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683061474633107, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683061474633117, "dur":1902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":10, "ts":1683061474635039, "dur":665456, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683061473177963, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683061473177963, "dur":1595, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683061473179559, "dur":17086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1683061473196649, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683061473198980, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1683061473199920, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1683061473199945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683061473199961, "dur":113274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1683061473313282, "dur":1086867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683061474400154, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683061474400163, "dur":22792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683061474422981, "dur":225003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683061474647990, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683061474648007, "dur":1768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1683061474649798, "dur":650684, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683061473178092, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683061473178093, "dur":1445, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683061473179538, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1683061473180137, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683061473192342, "dur":271984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1683061473464345, "dur":33053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061473497406, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683061473497418, "dur":34004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061473531448, "dur":36245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061473567701, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683061473567716, "dur":5940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061473573683, "dur":100616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061473674336, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683061473674350, "dur":12489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061473686863, "dur":42362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061473729232, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683061473729245, "dur":4093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061473733444, "dur":47108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061473780560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683061473780575, "dur":1726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061473782333, "dur":55495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061473837834, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683061473837849, "dur":119379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061473957248, "dur":74240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061474031495, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683061474031507, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061474033293, "dur":34343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061474067648, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683061474067664, "dur":2685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061474070370, "dur":63072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061474133467, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683061474133479, "dur":1948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061474135468, "dur":144071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061474279547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683061474279591, "dur":1445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061474281057, "dur":46128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061474327192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683061474327203, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061474328657, "dur":297129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061474625793, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683061474625804, "dur":2312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Github Repos/GE2-Boid-Project/Build/GE2_Boid_Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1683061474628137, "dur":672365, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683061475313974, "dur":8641, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1683061475355388, "dur": 2757, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1683061475353934, "dur": 4311, "ph": "X", "name": "Write chrome-trace events", "args": {} },
