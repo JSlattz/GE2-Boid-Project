@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class NematodeSchool : MonoBehaviour
 {
-    //Boids boids;
+
+    Boid boids;
     public GameObject prefab;
     public List<GameObject> InsFish = new List<GameObject>();
     [Range (1, 5000)]
@@ -22,6 +23,7 @@ public class NematodeSchool : MonoBehaviour
             Quaternion rotation = Quaternion.Euler(0f, rnd, 0f);
             Instantiate(prefab, pos, rotation);
             InsFish.Add(prefab);
+            //boids.insFish = i;
         }
 
         int rndPrefab = Random.Range(1, count);

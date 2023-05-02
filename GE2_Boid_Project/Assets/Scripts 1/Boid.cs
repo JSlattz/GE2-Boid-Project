@@ -5,6 +5,7 @@ using UnityEngine;
 public class Boid : MonoBehaviour
 {
     List<SteeringBehaviour> behaviours = new List<SteeringBehaviour>();
+    NematodeSchool nematodeSchool;
 
     public Vector3 force = Vector3.zero;
     public Vector3 acceleration = Vector3.zero;
@@ -20,6 +21,11 @@ public class Boid : MonoBehaviour
     public float maxSpeed = 5.0f;
     public float maxForce = 10.0f;
 
+    [Space]
+    [Header("Pregnacy")]
+    public bool pregnant = false; public bool checkingPregnancy = false; public bool gestating; public bool baby = false;
+    public GameObject prefab;
+
     public void OnDrawGizmos()
     {
         Gizmos.color = Color.blue;
@@ -33,8 +39,8 @@ public class Boid : MonoBehaviour
     void Start()
     {
         StartCoroutine("hungerCountdown");
+        prefab = GameObject.Find("Fish Head");
         SteeringBehaviour[] behaviours = GetComponents<SteeringBehaviour>();
-
         foreach (SteeringBehaviour b in behaviours)
         {
             this.behaviours.Add(b);            
@@ -113,6 +119,48 @@ public class Boid : MonoBehaviour
         StartCoroutine("hungerCountdown");
     }
 
+    IEnumerator pregnancyChecker()
+    {
+        checkingPregnancy = true;
+        yield return new WaitForSeconds(10f);
+        Debug.Log("Checking Pregnancy");
+        int rndPregnancy = Random.Range(1, 5);
+        if(rndPregnancy == 4)
+        {
+            pregnant = true;
+            checkingPregnancy = false;
+            Debug.Log("Pegnant!");
+        }
+        else
+        {
+            checkingPregnancy = false;
+        }
+    }
+
+    IEnumerator pregnancy()
+    {
+        pregnant = false;
+        gestating = true;
+        Debug.Log("stage begun");
+        MeshRenderer meshRenderer = GetComponent<MeshRenderer>();
+        meshRenderer.material.color = Color.HSVToRGB(0f, 1f, 1f);
+        int i = 0;
+        if (i < 10)
+        {
+            Vector3 pregnacyGrowth = new Vector3(0.01f, 0.01f, 0.01f);
+            gameObject.GetComponentInParent<Transform>().localScale += pregnacyGrowth;
+            yield return new WaitForSeconds(30f);
+            i++;
+            Debug.Log("stage complete");
+            Debug.Log(i);
+        }
+        baby = true;
+        gestating = false;
+        meshRenderer.material.color = Color.HSVToRGB(0f, 0f, 1f);
+        Instantiate(prefab, transform.position, transform.rotation);
+        Debug.Log("pregnancy done");
+    }
+
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -131,9 +179,23 @@ public class Boid : MonoBehaviour
             velocity *= (1.0f - (damping * Time.deltaTime));
         }
 
+        pregnancyHandler();
+
         if(hunger > 100)
         {
             hunger = 100;
+        }
+        if(hunger == 100 && pregnant == false && checkingPregnancy == false && gestating == false)
+        {
+            StartCoroutine("pregnancyChecker");
+        }
+    }
+
+    void pregnancyHandler()
+    {
+        if(pregnant == true && gestating == false)
+        {
+            StartCoroutine("pregnancy");
         }
     }
 
@@ -143,6 +205,7 @@ public class Boid : MonoBehaviour
         {
             hunger += 25;
             Destroy(collision.gameObject);
+            Debug.Log("collision");
         }
 
     }
